@@ -1,0 +1,18 @@
+<button (click)="getWeatherData('Budapest')">Get data</button>
+<div *ngIf="weatherData">
+    {{ weatherData.id }}
+    {{ weatherData.cityName }}
+    {{ weatherData.temp }}
+</div>
+
+<input type="text" id="city">
+
+<div class="main-content">
+    <div class="tile-container">
+        <div class="tile">
+            <div class="">
+
+            </div>
+        </div>
+    </div>
+</div>
